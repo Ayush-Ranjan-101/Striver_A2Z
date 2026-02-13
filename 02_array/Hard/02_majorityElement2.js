@@ -40,6 +40,9 @@ const majorityElement = function  (nums) {
     return res;
 }
 
+// Time complexity : O(n + n) => O(n)
+// Space complexity : O(1)
+
 // Better apporach
 // const majorityElement = function  (nums) {
 //     const freq = new Map();
@@ -61,7 +64,7 @@ const majorityElement = function  (nums) {
 //     return res;
 // }
 
-// Time complexity : O(n)
+// Time complexity : O(n^2)
 // Space complexity : O(n)
 
 console.log(majorityElement(nums));

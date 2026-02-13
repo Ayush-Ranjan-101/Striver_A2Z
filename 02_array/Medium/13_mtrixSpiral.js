@@ -43,3 +43,6 @@ const spiralOrder = function  (matrix) {
 }
 
 console.log(spiralOrder(matrix));
+
+// Time complexity : O(m * n) m:Number of rows and n:Number of columns
+// Space complexity : O(1) 
