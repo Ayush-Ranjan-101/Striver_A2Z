@@ -46,5 +46,7 @@ const findPages = function  (nums, k) {
 
     return ans;
 }
+// Time complexity - O(n) + O(n * log(totalSum - maxElement))
+// Space complexity - O(1)
 
 console.log(findPages(nums, k));
